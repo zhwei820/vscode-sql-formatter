@@ -33,6 +33,8 @@ To build the extension as a `.vsix` file for local installation:
 
 4. This will generate a `vscode-sql-formatter-{version}.vsix` file in the project directory.
 
+   **Note**: The `.vscodeignore` file has been configured to exclude unnecessary files (tests, documentation, development files from node_modules, etc.) to reduce the extension package size.
+
 5. Install the `.vsix` file in VS Code:
    - Open VS Code
    - Go to Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
